@@ -1,0 +1,19 @@
+.myform{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    input{
+        margin-bottom: 30px;
+        height: 50px;
+    }
+    button{
+        background-color: transparent;
+        color: blue;
+        border: 2px solid blue;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,133 @@
+.slide__txt {
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+.slide__txt h5 {
+  font-size: 50px;
+}
+.slide__txt p {
+  font-size: 70px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.slidebtn {
+  background-color: #717fe0;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+.sec2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sec2__img {
+  position: relative;
+  width: 410px;
+  height: 280px;
+  border: 1px solid grey;
+}
+.sec2__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec2__txt {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 30px;
+}
+
+.crud {
+  width: 100%;
+  height: 100vh;
+}
+
+.card__head {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prodtxt {
+  font-size: 50px;
+}
+
+.filterbtn {
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card__rigth {
+  display: flex;
+  gap: 20px;
+}
+.card__rigth input {
+  height: 50px;
+}
+
+.filterbtn:hover {
+  background-color: #717fe0;
+  color: white;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cards .card {
+  width: 266px;
+  height: 390px;
+}
+
+.cardimg {
+  width: 266px;
+  height: 310px;
+}
+.cardimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardbody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardbody h3 {
+  color: grey;
+}
+
+.basketbtn {
+  background-color: transparent;
+  color: blue;
+  border: 1px solid blue;
+}/*# sourceMappingURL=Home.css.map */
